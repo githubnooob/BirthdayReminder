@@ -1,0 +1,179 @@
+*
+{
+	margin: 0; 
+	padding: 0; 
+	background: #46221A;
+}
+
+
+
+#personalInfo
+{
+	text-align: center;
+	position: relative;
+}
+
+
+#notificationIcon
+{
+	height: 30px;
+	widows: 30px;
+	position: absolute;
+	top: 20px;
+	transition = transform 3s ease-in; 
+}
+
+#notificationIcon:hover
+{
+	transform: scale(1.2) ;
+}
+
+
+
+
+
+#idImage
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.row
+{
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+
+
+.colFirst
+{
+	width: 33.33%;
+	background: #FFF;
+	float: left;
+}
+
+.divider1
+{
+	position: absolute;
+	width: 0.495%;
+	left: 66%;
+	height: 100%;
+	background: #46221A;
+}
+
+
+.divider2
+{
+	position: absolute;
+	width: 0.495%;
+	left: 33%;
+	height: 100%;
+	background: #46221A;
+
+}
+
+
+
+.colSecond
+{
+	width: 33.33%;
+	background: #FFF;
+	float: left;
+
+}
+
+
+
+.colThird
+{
+	width: 33.33%;
+	background: #FFF;
+	float: left;
+}
+
+.row:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#personImage
+{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 10px;
+	transition = transform 1s; 
+}
+
+#personImage:hover
+{
+	transform : scale(1.1) ;
+	
+}
+
+#personName
+{
+	line-height: 1.2em;
+	font-family: monospace;
+	font-size: 20px;
+	background: #FFF;
+	margin-top: 3px;
+}
+
+#birthdayIcon
+{
+	height: 40px;
+	width: 40px;
+	background: #FFF;
+}
+
+.birthDate
+{
+	line-height: 1.2em;
+	font-family: monospace;
+	font-size: 15px;
+	background: #FFF;
+	margin-top: 3px;	
+}
+
+h4
+{
+	background: #FFF;
+}
+
+#wishButton
+{
+	padding: 10px;
+	border-radius: 10%;
+	background: #9d8854;
+	border-color: #FFF;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition = transform 1s; 
+
+}
+
+
+
+
+#wishButton:hover
+{
+	background: #cab287;
+	transform : scale(1.1) ;
+
+}
+
+
+
+
+.todayBirthday
+{
+	background: #598234;
+}
